@@ -1,0 +1,57 @@
+number_of_runs: 3
+sample_json_path: "data/fiser_samples/sample_fiser_response.json"
+
+configurations:
+  - model: gpt-5
+    include_title: true
+    include_enhanced: true
+    include_images: true
+    base_folder_path: "data/dataset"
+    output_folder_path: "results/method_comparison/separate_results/CEMIR_GPT_5"
+    use_image_every_n_action: 1
+    use_fiser_prompting: false
+
+  - model: gpt-5
+    include_title: true
+    include_enhanced: false
+    include_images: false
+    base_folder_path: "data/dataset"
+    output_folder_path: "results/method_comparison/separate_results/FISER_GPT_5"
+    use_image_every_n_action: 1
+    use_fiser_prompting: true
+
+  - model: gpt-5-nano
+    include_title: true
+    include_enhanced: true
+    include_images: true
+    base_folder_path: "data/dataset"
+    output_folder_path: "results/method_comparison/separate_results/CEMIR_GPT_5_NANO"
+    use_image_every_n_action: 1
+    use_fiser_prompting: false
+
+  - model: gpt-5-nano
+    include_title: true
+    include_enhanced: false
+    include_images: false
+    base_folder_path: "data/dataset"
+    output_folder_path: "results/method_comparison/separate_results/FISER_GPT_5_NANO"
+    use_image_every_n_action: 1
+    use_fiser_prompting: true
+
+  - model: gpt-5-mini
+    include_title: true
+    include_enhanced: true
+    include_images: true
+    base_folder_path: "data/dataset"
+    output_folder_path: "results/method_comparison/separate_results/CEMIR_GPT_5_MINI"
+    use_image_every_n_action: 1
+    use_fiser_prompting: false
+
+  - model: gpt-5-mini
+    include_title: true
+    include_enhanced: false
+    include_images: false
+    base_folder_path: "data/dataset"
+    output_folder_path: "results/method_comparison/separate_results/FISER_GPT_5_MINI"
+    use_image_every_n_action: 1
+    use_fiser_prompting: true

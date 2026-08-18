@@ -1,0 +1,9 @@
+delta_pp,ci_low,ci_high,p_value,n_episodes,FISER_SR%,Modality_SR%,Level,Modality,p_holm,significant
+5.33,-0.67,11.33,0.09665,100,21.67,27.0,1,Raw Text + Enhanced Text,0.5799,No
+-5.0,-12.0,2.0,0.1861,100,21.67,16.67,1,Raw Text + Image,0.60775,No
+3.67,-0.67,8.33,0.1408,100,6.0,9.67,2,Raw Text + Enhanced Text,0.60775,No
+7.33,2.0,12.67,0.00895,100,6.0,13.33,2,Raw Text + Image,0.0716,No
+2.0,-1.0,5.33,0.3067,100,4.0,6.0,3,Raw Text + Enhanced Text,0.60775,No
+-2.0,-4.33,0.34,0.21395,100,4.0,2.0,3,Raw Text + Image,0.60775,No
+3.67,-0.0,7.67,0.12155,100,3.67,7.33,4,Raw Text + Enhanced Text,0.60775,No
+4.33,0.0,8.67,0.0641,100,3.67,8.0,4,Raw Text + Image,0.44870000000000004,No

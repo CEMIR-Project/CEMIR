@@ -1,0 +1,5 @@
+delta_pp,ci_low,ci_high,p_value,n_episodes,FISER_SR%,CEMIR_SR%,Model,p_holm,significant
+0.42,-1.25,2.25,0.71465,400,28.67,29.08,GPT_5,1.0,No
+-1.08,-2.83,0.67,0.24885,400,27.21,26.25,GPT_5_MINI,0.9954,No
+-0.58,-2.5,1.33,0.59705,400,19.83,19.27,GPT_5_NANO,1.0,No
+0.75,-1.59,3.0,0.57615,400,8.83,9.58,Qwen_3b,1.0,No

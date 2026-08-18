@@ -1,0 +1,18 @@
+sample_json_path: "data/fiser_samples/sample_fiser_response.json"
+
+number_of_runs: 5
+
+configurations:
+  - include_title: true
+    include_enhanced: true
+    include_images: false
+    base_folder_path: "data/dataset"
+    output_folder_path: "results/local_qwen_ablation/separate_results/title_enhanced"
+    use_image_every_n_action: 1
+
+  - include_title: true
+    include_enhanced: false
+    include_images: true
+    base_folder_path: "data/dataset"
+    output_folder_path: "results/local_qwen_ablation/separate_results/title_image"
+    use_image_every_n_action: 1

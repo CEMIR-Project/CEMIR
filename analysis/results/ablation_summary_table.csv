@@ -1,0 +1,9 @@
+Modality,Level,Exact Accuracy (%),Exact Accuracy SE
+Raw Text + Image,1,19.89,1.33
+Raw Text + Enhanced Text,1,27.11,1.48
+Raw Text + Image,2,12.89,1.12
+Raw Text + Enhanced Text,2,9.78,0.99
+Raw Text + Image,3,4.67,0.7
+Raw Text + Enhanced Text,3,5.44,0.76
+Raw Text + Image,4,7.33,0.87
+Raw Text + Enhanced Text,4,8.11,0.91
