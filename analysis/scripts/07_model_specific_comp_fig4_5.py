@@ -11,8 +11,8 @@ METRIC = "exact_acc"
 METHOD_FISER = "FISER"
 METHOD_CEMIR = "CEMIR"
 VALID_REPS = {0, 1, 2}
-MODELS = ["GPT_5", "GPT_5_MINI", "GPT_5_NANO", "Qwen_3b"]
-MODEL_LABELS = ["GPT_5", "GPT_5_MINI", "GPT_5_NANO", "Qwen-2.5-3B"]
+MODELS = ["GPT_5", "GPT_5_MINI", "GPT_5_NANO", "Qwen2.5_Omni_3b"]
+MODEL_LABELS = ["GPT_5", "GPT_5_MINI", "GPT_5_NANO", "Qwen2.5_Omni_3b"]
 LEVELS = [1, 2, 3, 4]
 
 os.makedirs(FIGURES_DIR, exist_ok=True)
