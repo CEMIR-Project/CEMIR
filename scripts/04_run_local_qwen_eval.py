@@ -268,10 +268,10 @@ def get_step_messages(step, pics_folder, config, should_include_image):
     image_path = os.path.join(pics_folder, f"{action_id}.png")
     action_text = ""
     if config.get(INCLUDE_TITLE, False):
-        action_text += f"Scene Description: {scene_desc}\n"
+        action_text += f"Action Title: {action_desc}\n"
 
     if config.get(INCLUDE_ENHANCED, False):
-        action_text += f"Action Title: {action_desc}\n"
+        action_text += f"Scene Description: {scene_desc}\n"
 
     messages.append({
         "role": "user",
